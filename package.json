@@ -3,14 +3,14 @@
   "version": "0.3.0",
   "description": "Write String/Buffer to a random temp file",
   "license": "MIT",
-  "repository": "sindresorhus/temp-write",
+  "repository": "ground5hark/temp-write-old",
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
     "url": "http://sindresorhus.com"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=0.8.0"
   },
   "scripts": {
     "test": "mocha"
@@ -34,9 +34,9 @@
     "buffer"
   ],
   "dependencies": {
-    "graceful-fs": "^2.0.0",
-    "mkdirp": "^0.3.5",
-    "uuid": "^1.4.1"
+    "graceful-fs": "~2.0.0",
+    "mkdirp": "~0.3.5",
+    "uuid": "~1.4.1"
   },
   "devDependencies": {
     "mocha": "*"

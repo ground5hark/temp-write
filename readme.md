@@ -1,12 +1,12 @@
-# temp-write [![Build Status](https://travis-ci.org/sindresorhus/temp-write.svg?branch=master)](https://travis-ci.org/sindresorhus/temp-write)
+# temp-write-old [![Build Status](https://travis-ci.org/sindresorhus/temp-write.svg?branch=master)](https://travis-ci.org/sindresorhus/temp-write)
 
-> Write String/Buffer to a random temp file
+> Write String/Buffer to a random temp file ([forked](https://github.com/sindresorhus/temp-write) to support older versions of node >= 0.8.x)
 
 
 ## Install
 
 ```bash
-$ npm install --save temp-write
+$ npm install --save temp-write-old
 ```
 
 
@@ -14,7 +14,7 @@ $ npm install --save temp-write
 
 ```js
 var fs = require('fs');
-var tempWrite = require('temp-write');
+var tempWrite = require('temp-write-old');
 
 var filepath = tempWrite.sync('unicorn');
 //=> /var/folders/_1/tk89k8215ts0rg0kmb096nj80000gn/T/4049f192-43e7-43b2-98d9-094e6760861b
