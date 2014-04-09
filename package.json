@@ -1,6 +1,6 @@
 {
   "name": "temp-write-old",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Write String/Buffer to a random temp file",
   "license": "MIT",
   "repository": "ground5hark/temp-write-old",

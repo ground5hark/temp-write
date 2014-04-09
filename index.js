@@ -1,6 +1,14 @@
 'use strict';
 var path = require('path');
-var tmpdir = require('os').tmpdir();
+var tmpdir = (function(os){
+  if (os.tmpdir) {
+    // 0.10.x
+    return os.tmpdir();
+  } else {
+    // 0.8.x
+    return os.tmpDir();
+  }
+}(require('os')));
 var fs = require('graceful-fs');
 var mkdirp = require('mkdirp');
 var uuid = require('uuid');
