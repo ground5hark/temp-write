@@ -1,5 +1,5 @@
 {
-  "name": "temp-write",
+  "name": "temp-write-old",
   "version": "0.3.0",
   "description": "Write String/Buffer to a random temp file",
   "license": "MIT",
